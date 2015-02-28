@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="action_city">Change City</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_updateLocation">Location</string>
+    <string name="todayWeatherCondition">Today Weather Icon</string>
+	<string name="day1WeatherCondition">Day 1 Weather Icon</string>
+	<string name="day2WeatherCondition">Day 2 Weather Icon</string>
+	<string name="day3WeatherCondition">Day 3 Weather Icon</string>
+    <string name="day4WeatherCondition">Day 4 Weather Icon</string>
+    <string name="London">London</string>
+    <string name="Mumbai">Mumbai</string>
+    <string name="Pittsburgh">Pittsburgh</string>
+    <string name="websiteDescription">Weather credits: OpenWeatherMap.org\nClick here to get more details!</string>
+    
+</resources>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.pitt.sis.weather.activities.MainWeatherActivity" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_updateLocation"
+        android:orderInCategory="100"
+        android:title="@string/action_updateLocation"
+        android:icon="@drawable/ic_action_locate"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_city"
+        android:orderInCategory="100"
+        android:title="@string/action_city"
+        app:showAsAction="ifRoom"/>
+
+</menu>

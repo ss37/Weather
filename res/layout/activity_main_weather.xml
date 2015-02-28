@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+        <ImageView
+            android:id="@+id/todayWeatherConditionImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todayWeatherCondition"
+            android:layout_weight="3" >
+        </ImageView>
+        <LinearLayout
+        	android:layout_height="match_parent"
+        	android:layout_width="wrap_content" 
+        	android:orientation="vertical"
+        	android:layout_weight="1" >
+        	<TextView
+        	    android:id="@+id/currentTemperatureText"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+        	<TextView
+        	    android:id="@+id/currentMaxTemperatureText"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+        	<TextView
+        	    android:id="@+id/currentMinTemperatureText"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+        	<TextView
+        	    android:id="@+id/currentDescriptionText"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+    	</LinearLayout>
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:layout_weight="1" >
+        	<TextView 
+        	    android:id="@+id/day1Text"
+        	    android:layout_height="wrap_content"
+            	android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<TextView 
+        	    android:id="@+id/date1Text"
+            	android:layout_height="wrap_content"
+            	android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<ImageView
+        	    android:id="@+id/day1WeatherConditionImage"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+        	    android:contentDescription="@string/day1WeatherCondition"
+        	    android:layout_weight="2" />
+        	<TextView 
+        	    android:id="@+id/temp1Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+     	</LinearLayout>
+     	<LinearLayout
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_weight="1" >
+        	<TextView 
+        	    android:id="@+id/day2Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<TextView 
+        	    android:id="@+id/date2Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<ImageView
+        	    android:id="@+id/day2WeatherConditionImage"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:contentDescription="@string/day2WeatherCondition"
+            	android:layout_weight="2" />
+        	<TextView 
+        	    android:id="@+id/temp2Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+     	</LinearLayout>
+     	<LinearLayout
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:orientation="vertical" 
+	        android:layout_weight="1" >
+        	<TextView 
+        	    android:id="@+id/day3Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<TextView 
+        	    android:id="@+id/date3Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<ImageView
+        	    android:id="@+id/day3WeatherConditionImage"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:contentDescription="@string/day3WeatherCondition"
+            	android:layout_weight="2" />
+        	<TextView 
+        	    android:id="@+id/temp3Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+     	</LinearLayout>
+     	<LinearLayout
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:orientation="vertical" 
+	        android:layout_weight="1" >
+        	<TextView 
+        	    android:id="@+id/day4Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />
+        	<TextView 
+        	    android:id="@+id/date4Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1"
+            	android:textStyle="bold" />"
+        	<ImageView
+        	    android:id="@+id/day4WeatherConditionImage"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:contentDescription="@string/day4WeatherCondition"
+            	android:layout_weight="2" />
+        	<TextView 
+        	    android:id="@+id/temp4Text"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="match_parent"
+            	android:layout_weight="1" />
+     	</LinearLayout>
+     </LinearLayout>
+     <TextView
+         android:id="@+id/website"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_weight="0.25"
+         android:text="@string/websiteDescription"
+         android:onClick="openWebsite" />
+</LinearLayout>
