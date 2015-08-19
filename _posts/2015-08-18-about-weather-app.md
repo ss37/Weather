@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Minesweeper
+title: About Weather App
 ---
 
 This is an Android app that displays the weather forecast of a location obtained using Android Location Services. As long as there is data connectivity, the app can detect the location and display the current weather and a 4-day weather forecast.
