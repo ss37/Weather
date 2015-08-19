@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Weather
 tagline:          ''
-description:      'Android app for weather forecast'
+description:      'Android App for Weather Forecast'
 url:              http://ss37.github.io/Weather
 baseurl:          /
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          1.0
 
 github:
-  repo:           https://github.com/ss37/Minesweeper
+  repo:           https://github.com/ss37/Weather
